@@ -1,0 +1,34 @@
+.game {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: #000;
+}
+
+.paddle {
+  position: absolute;
+  width: 10px;
+  height: 60px;
+  background-color: #fff;
+}
+
+.ball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.obstacle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #f00;
+}
+
+.score {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
